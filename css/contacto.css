@@ -1,0 +1,105 @@
+body {
+    background-color: darkorange;
+}
+
+.claselogo {
+    text-align: center;
+}
+
+nav li {
+    display:inline-block;
+    padding: 0 5%;
+    background-color: rgb(82, 247, 0);
+    font-size: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ---- 768px-------- */
+@media screen and (min-width:768px) {
+nav li {
+    display:inline-block;
+    padding: 0 5%;
+    background-color: rgb(82, 247, 0);
+    font-size: 130%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 20px;
+} 
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+}
+
+/*---------992px------ */
+@media screen and (min-width:992px) {
+ nav li {
+    display:inline-block;
+    padding: 0 7%;
+    background-color: rgb(82, 247, 0);
+    font-size: 140%;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 25px;
+} 
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.contactos {
+    font-size: 20px;
+}
+}
+
+
+
+
+/*-----------1200px-------- */
+@media screen and (min-width:1200px) {
+ nav li {
+    display:inline-block;
+    padding: 0 7%;
+    background-color: rgb(82, 247, 0);
+    font-size: 140%;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+} 
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+.contacto {
+    font-size: 25px;
+}
+
+}

@@ -1,0 +1,146 @@
+body{
+    background-color: darkorange;
+}
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.responsive-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+footer {
+    text-align: right;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ h3 {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+ }
+ .imagendes {
+    text-align: center;
+ }
+
+ .imgfinal {
+    text-align: center;
+ }
+
+
+nav li {
+    display:inline-block;
+    padding: 0 5%;
+    background-color: rgb(82, 247, 0);
+    font-size: 100%;
+    text-align: center;
+}
+
+
+/* ---- 768px-------- */
+@media screen and (min-width:768px) {
+
+nav li {
+    display:inline-block;
+    padding: 0 5%;
+    background-color: rgb(82, 247, 0);
+    font-size: 130%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 20px;
+} 
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+   
+
+
+}
+
+
+
+
+/*---------992px------ */
+@media screen and (min-width:992px) {
+
+    nav li {
+    display:inline-block;
+    padding: 0 7%;
+    background-color: rgb(82, 247, 0);
+    font-size: 140%;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 25px;
+} 
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+}
+
+
+
+
+/*-----------1200px-------- */
+@media screen and (min-width:1200px) {
+
+    
+    nav li {
+    display:inline-block;
+    padding: 0 7%;
+    background-color: rgb(82, 247, 0);
+    font-size: 140%;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+} 
+
+.claselogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+}
